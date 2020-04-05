@@ -1,0 +1,7 @@
+Thanks, <?php
+@extract($_POST);
+$name = stripslashes($name);
+$email = stripslashes($email);
+mail('admin@your-domain.com',$name,$email,"From: $name <admin@your-domain.com>");
+echo stripslashes($name);
+?> , we will drop you a line shortly.

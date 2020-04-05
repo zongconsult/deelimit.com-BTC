@@ -1,0 +1,248 @@
+/*  */
+* {padding:0px;
+	margin:0px;
+}
+/* h1 */
+h1 {font:bold 20px Tahoma; padding: 5px;
+
+}
+/* h2 */
+h2{font: bold 16px Tahoma; padding: 5px;
+
+}
+
+/* h3 */
+h3{font: bold 14px Tahoma; padding: 1%; margin-bottom: 1%;
+
+}
+
+/* Paragraphs */
+p{ padding: 5px;
+
+}
+/* a, img { outline: none; border:none; color: #000; font-weight: bold; text-transform: uppercase;} */
+
+header a {text-transform: lowercase;}
+ol {list-style-type: none;}
+
+ ul {padding: 10px; list-style-type: none}
+
+ ul li {padding: 5px;font: bold 12px Tahoma;}
+
+ol li {padding:5px;font:bold 12px Tahoma;}
+
+
+span {color: red;}
+
+/*  make html5 selectors block*/
+header, section, footer, aside, nav, article, hgroup  {
+	display: block;
+}
+/* body of the document */
+body {text-align: center; background-color: #505155;
+
+}
+
+
+
+/* every name which is tfolo */
+[name="tfolo"]{float:right; padding-left: 0.5%;}
+[name="tfoloR"]{float:left; padding-left: 0.5%;}
+
+#main { 	
+		width: 60%;
+		margin-right: 2%;
+		padding: 2%;
+		float: left;
+		}
+
+#big_wrapper{margin: 20px auto;background-color: #B9B9B9;
+	width: 99%;
+	max-width: 1000px;
+	
+	text-align: left;
+}
+
+#main_header{padding: 2%;
+	
+}
+
+
+
+#main_menu{clear:both;
+
+}
+
+#main_menu li { padding: 3px;
+	display: inline-block;
+	font: bold 14px Tahoma;
+	
+}
+
+	/*padding: 30px;  Our width= 660px + 30left + 30right=720px remaining=280*/
+
+.main_section {float: left;	
+	width: 66%;
+	margin: 30px; 
+}
+
+#big_aside {clear:right; float:left; 
+	width: 22%;
+	margin: 2% 0px 0px 0px;
+	padding: 2%;
+	list-style-type:none;
+		
+}
+
+#big_aside aside {background-color: #F4ECDF;}
+
+
+#News{
+	border:1px solid black; 
+}
+
+#Buy_contents{
+	border:1px solid black;
+}
+
+#Buy_contents ol ul {color: red;}
+
+
+
+#Advert{ clear:both; width: 440px; float: left;
+	margin: 30px; /*  remaining 500px*/
+	border:1px solid black;	
+}
+
+#bookings{ float:left; width: 440px; 	
+	margin: 30px 0px;
+	border:1px solid black;
+}
+
+#divide1{clear:both;  width: 22%; float:left;
+	margin:0.5%; /*  remaining 500px*/
+	list-style-type:none; border: 1px solid black;
+		}
+
+#divide2{width: 22%; float:left;
+	margin: 0.5%; list-style-type:none;
+	border: 1px solid black;
+	 /*  remaining 500px*/
+	}
+
+#divide3{width: 22%; float:left;
+	margin: 0.5%; list-style-type:none; /*  remaining 500px*/
+	border: 1px solid black;
+	}
+
+#divide4{width: 22%; float:left;
+	margin:0.5%; list-style-type:none; /*  remaining 500px*/
+	border: 1px solid black;
+	}
+
+#main_footer{ clear:left; text-align: center;
+	border-top:1px solid #EEBDAB; background-color: #C1BD98;
+	padding: 30px;
+}
+
+#skipTo {
+	display: none;
+	}
+	#skipTo li {
+		background: #b1fffc;
+		}
+
+aside { margin: 20px; padding: 5px;
+
+}
+
+#four_sections{ 
+
+}
+
+/* #four_sections aside:nth-child(odd){color: pink;}
+#four_sections aside:nth-child(even){color: orange;}
+
+/*img {width: 10%; float: left; padding: 5px;} */
+
+nav{float: left;}
+
+article {text-align: justify;}
+
+article footer { text-align: right; padding: 5px;
+
+}
+
+article:nth-child(odd){color: blue;}
+article:nth-child(even){color: red;}
+
+/* Make All Odd list in new green and even purple */
+#News ul li:nth-child(odd){color: green;}
+#News ul li:nth-child(even){color: purple;}
+
+article p { padding: 5px;
+}
+
+#floatL {}
+
+#floatR {}
+
+/*
+This code divides four bottoms to 2 on free downloads
+#mk_2 {width: 44%;float:left;
+	margin: 0.5%; list-style-type:none; /*  remaining 500px*/
+	border: 1px solid black;}
+*/
+/* Media Queries */
+@media screen and (max-width: 640px) {
+#skipTo {
+display: block;
+}
+
+#main_menu li {
+display: block;
+}
+
+#main_header img {display: none;}
+
+[name="search"]{float: left;}
+
+		nav, #main {
+		float: left;
+	/*	clear: left;	*/	
+		margin: 0 0 10px; 
+		width: 100%; }
+
+		 nav li {text-align: center;
+			background: #2FBCDA;
+			display: block;
+			margin-bottom: 3px;}
+
+		#big_aside {clear: left;
+			width: 44%;
+			float: left;
+			margin: 2% 0px 0px 0px;
+			padding: 2%;}		
+		
+		nav a {
+				display: block;
+				padding: 2%;
+				
+				}	
+			
+
+			#mk_1{clear:both; float:left; width: 100%;}
+
+			#mk_1 #divide1 {width: 50%;}
+			#mk_1 #divide2 {width: 50%;}
+
+			#mk_2{clear:both; float:left; width: 100%;}
+
+			#mk_2 #divide3 {width: 50%;}
+			#mk_2 #divide4 {width: 50%;}
+
+			#floatL {display: none;}
+
+			#floatR {display: none;}
+
+}

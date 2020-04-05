@@ -1,0 +1,118 @@
+body   {
+    background: #b6b7bc;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+	width:100%;
+    height:100%;
+}
+
+#txtLyrics
+{
+    height: 491px;
+    width: 868px;
+}
+
+#footer 
+    { height: 6em; margin: 0px; padding: 1em; text-align: center; 
+background: #1A446C;  color: #D4E6F4;
+
+     }
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+.formcolor{
+    background-color:#DDDDDD;
+    height: 150px;
+    width: 389px;
+    margin:25px;
+    border:1px solid #C2AE95;
+    }
+    
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+    /* */
+}
+
+h1
+{
+    font-size: 1.2em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+    color:Red;
+    font-weight:bold;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}

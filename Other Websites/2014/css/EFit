@@ -1,0 +1,55 @@
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+#skipTo {
+display: block;
+}
+
+#main_menu li {
+display: block;
+}
+[name="search"]{float: right;
+
+				margin: 2%; padding: 2%;}
+
+ nav, #main, aside {
+		float: left;
+		/*clear: left;*/
+		margin: 0 0 10px; 
+		width: 100%;
+		}	
+		 nav li {
+			margin: 0;
+			background: #efefef;
+			display: block;
+			margin-bottom: 3px;
+			text-align: center;
+			
+			}
+			
+		#big_aside {clear: left;
+			width: 44%;
+			float: left;
+			margin: 2% 0px 0px 0px;
+			padding: 2%;}		
+			
+			nav a {
+				display: block;
+				padding: 2%;
+				
+
+				}		
+
+			#floatL {display: none;}
+
+			#floatR {display: none;}
+			
+			#mk_1 #divide1 {display: none;}
+			#mk_1 #divide2 {display: none;}
+
+			#mk_2{display: none;}
+
+			#mk_2 #divide3 {display: none;}
+			#mk_2 #divide4 {display: none;}
+
+}
